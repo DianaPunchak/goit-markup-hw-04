@@ -439,6 +439,25 @@ letter-spacing: 0.03em;
     line-height: 1.2;
 }
 
+.linc-footer{
+    
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    fill: #ffffff;
+    background-color: rgba(0, 0, 0, 10%);
+    border-radius: 50%;
+}
+      
+.linc-footer:hover {
+        border-radius: 50%;
+        background-color: var(--accent-color);
+        fill: var(--primary-white-color);
+      }
+
+
 .btn{
     display: flex;
     justify-content: center;
