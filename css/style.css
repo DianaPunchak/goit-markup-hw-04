@@ -179,6 +179,7 @@ a{
 
 .contacts-nav-meil:hover{
     color:var(--accent-text-color);
+    fill:var(--accent-text-color);
 }
 
 .hero-section{
