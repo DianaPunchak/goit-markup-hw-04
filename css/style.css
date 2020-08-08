@@ -381,7 +381,7 @@ letter-spacing: 0.03em;
 }
 
 .linc-client{
-    display: flex;
+    display:inline-flex;
     width: 170px;
     height: 90px;
     align-items: center;
@@ -390,8 +390,11 @@ letter-spacing: 0.03em;
     border: 1px solid #afb1b8;
     border-radius: 4px;
 }
+
+.linc-icon{
+  fill: currentColor;  
+}
 .linc-client:hover{
-    fill: currentColor;
     fill:var(--accent-text-color);
     border: 1px solid var(--accent-text-color);
 }
