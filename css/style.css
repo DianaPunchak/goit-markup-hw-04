@@ -381,7 +381,7 @@ letter-spacing: 0.03em;
 }
 
 .linc-client{
-    display:inline-flex;
+    display:flex;
     width: 170px;
     height: 90px;
     align-items: center;
