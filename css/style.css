@@ -354,9 +354,9 @@ border-radius: 4px;
       
  .linc-social:hover {
     border-radius: 50%;
-    background-color: var(--accent-text-color-color);
+    background-color: var(--accent-text-color);
     fill: var(--white-text-color);
-     }
+ }
 
 
 .address{
