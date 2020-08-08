@@ -352,7 +352,7 @@ border-radius: 4px;
    fill: #afb1b8;
  }
       
- .linc-social:hover {
+ .linc-social:hover{
     border-radius: 50%;
     background-color: var(--accent-text-color);
     fill: var(--white-text-color);
