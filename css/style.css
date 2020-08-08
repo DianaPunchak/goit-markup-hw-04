@@ -173,6 +173,7 @@ a{
 
 .contacts-nav>li>a:hover{
     color:var(--accent-text-color);
+    fill: var(--accent-text-color);
     
 
 }
@@ -180,14 +181,7 @@ a{
 .contacts-nav>li>a:focus{
     color:var(--accent-text-color);
 }
-.icon-svg{
-    fill: var(--secondary-text-color);  
-        
-        
-}
-.icon-svg:hover{
-   fill: var(--accent-text-color);
-}
+
 
 
 .hero-section{
