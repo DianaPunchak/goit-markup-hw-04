@@ -171,15 +171,23 @@ a{
     line-height: 0.85;
 }
 
+.contacts-nav>li>a:hover{
+    color:var(--accent-text-color);
+    
 
+}
 
 .contacts-nav>li>a:focus{
     color:var(--accent-text-color);
 }
-
-.contacts-nav-meil:hover{
-    color:var(--accent-text-color);
-    fill:var(--accent-text-color);
+.icon-svg{
+    fill: var(--secondary-text-color);  
+        
+        
+}
+.icon-svg:hover{
+   fill: var(--accent-text-color);
+}
 }
 
 .hero-section{
