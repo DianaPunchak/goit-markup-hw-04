@@ -391,6 +391,7 @@ letter-spacing: 0.03em;
     border-radius: 4px;
 }
 .linc-client:hover{
+    fill: currentColor;
     fill:var(--accent-text-color);
     border: 1px solid var(--accent-text-color);
 }
