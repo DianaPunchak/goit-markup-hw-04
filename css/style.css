@@ -351,9 +351,7 @@ border-radius: 4px;
    justify-content: center;
    fill: #afb1b8;
  }
- .linc-icon{
-    fill: currentColor;  
-  }
+ 
       
  .linc-social:hover{
     border-radius: 50%;
