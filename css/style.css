@@ -121,9 +121,7 @@ li{
 margin-right: 0;
 }
 
-.icon-svg{
-    margin-right: 10px;
-}
+
 
 
 .main-nav{
@@ -173,13 +171,14 @@ a{
 
 .contacts-nav>li>a:hover{
     color:var(--accent-text-color);
-    fill: var(--accent-text-color);
-    
-
 }
 
 .contacts-nav>li>a:focus{
     color:var(--accent-text-color);
+}
+.icon-svg{
+    margin-right: 10px;
+    fill:currentColor ;
 }
 
 
