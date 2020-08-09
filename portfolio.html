@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+
+
 </head>
 <body>
     <!--Шапка-->
@@ -15,18 +17,22 @@
          <nav class="main-nav">
             <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio">Studio</span></a>
                <ul class="site-nav">
-                   <li class="item"><a href="./index.html" >Студия</a></li>
-                   <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                   <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                   <li class="item"><a href="./portfolio.html">Портфолио</a></li>
                    <li class="item"><a href="">Контакты</a></li>
                </ul>
 
                 <ul class=" contacts-nav">
-                   <li class="item"><a class="contacts-nav-meil" href="mailto:info@devstudio.com"><img src="./img/envelope.svg" alt="logo"> info@devstudio.com</a></li>
-                   <li class="item"><a class="contacts-nav-tel" href="tel:+380961111111"><img src="./img/Vector.svg" alt="logo"> +38 096 111 11 11</a></li>
+                   <li class="item"><a class="contacts-nav-meil" href="mailto:info@devstudio.com"><svg class="icon-svg" width="16" height="11">
+                    <use href="./img/sprite.svg#icon-mail"></use>
+                  </svg>info@devstudio.com</a></li>
+                   <li class="item"><a class="contacts-nav-tel" href="tel:+380961111111"><svg class="icon-svg" width="10" height="14.96">
+                    <use href="./img/sprite.svg#icon-tel"></use>
+                  </svg> +38 096 111 11 11</a></li>
                </ul>
          </nav>
      </div>
-   </header> 
+   </header>  
 
 <!--main conteiner-->
      <main>
@@ -106,32 +112,32 @@
      </main>
 
       <!---Подвал-->
-   <footer class="footer">
-    <div class="conteiner-footer">
-        <div class="flex">
-        <div class="element">
-           <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio-footer">Studio</span></a>
-
-          <address class="address-footer">
-              <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
-              <a class="contacts-footer-meil" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
-              <a class="contacts-footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-          </address>
-         </div>
+      <footer class="footer">
+        <div class="conteiner-footer">
+            <div class="flex">
+            <div class="element">
+               <a class="logo" href="./index.html"><span class="logo-web"> Web</span> <span class="logo-studio-footer">Studio</span></a>
  
-           <!---Присоединяйтесь-->
-      <div class="element">
-           <h4 class="social-networks-title">Присоединяйтесь</h4>
-           <ul class="social-networks-list">
-              <li class="icon-list"><a class="linc" href=""><img src="./img/instagram2.svg" alt="instagram"></a></li>
-              <li class="icon-list"><a class="linc" href=""><img src="./img/twitter.svg" alt="twitter"></a></li>
-              <li class="icon-list"><a class="linc" href=""><img src="./img/fb.svg" alt="facebook"></a></li>
-              <li class="icon-list"><a class="linc" href=""><img src="./img/ld.svg" alt="in"></a></li>
-          </ul>
+              <address class="address-footer">
+                  <span class="address">г. Киев, пр-т Леси Украинки, 26</span> <br>
+                  <a class="contacts-footer-meil" href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
+                  <a class="contacts-footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+              </address>
+             </div>
+     
+               <!---Присоединяйтесь-->
+          <div class="element">
+               <h4 class="social-networks-title">Присоединяйтесь</h4>
+               <ul class="social-networks-list">
+                  <li class="icon-list"><a class="linc-footer" href=""><svg class="footer-social" width="20" height="20"><use href="./img/sprite.svg#icon-instagram"></use></svg></a></li>
+                  <li class="icon-list"><a class="linc-footer" href=""><svg class="footer-social" width="20" height="20"><use href="./img/sprite.svg#icon-twitter"></use></svg></a></li>
+                  <li class="icon-list"><a class="linc-footer" href=""><svg class="footer-social" width="20" height="20"><use href="./img/sprite.svg#icon-facebook"></use></svg></a></li>
+                  <li class="icon-list"><a class="linc-footer" href=""><svg class="footer-social" width="20" height="20"><use href="./img/sprite.svg#icon-linkedin"></use></svg></a></li>
+              </ul>
+             </div>
          </div>
-     </div>
-  </div>
-
-</footer>
+      </div>
+ 
+    </footer>
 </body>
 </html>
