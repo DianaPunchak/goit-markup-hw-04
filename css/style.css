@@ -453,8 +453,8 @@ letter-spacing: 0.03em;
       
 .linc-footer:hover {
         border-radius: 50%;
-        background-color: var(--accent-color);
-        fill: var(--primary-white-color);
+        background-color:var(--accent-text-color);
+        fill:var(--white-text-color);
       }
 
 
