@@ -451,7 +451,7 @@ letter-spacing: 0.03em;
     border-radius: 50%;
 }
       
-.linc-footer:hover {
+.linc-footer:hover{
         border-radius: 50%;
         background-color:var(--accent-text-color);
         fill:var(--white-text-color);
