@@ -16,8 +16,10 @@ body{
     background-color:white;
 }
 
+
 .conteiner{
     width: 1200px;
+    height: 80px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -547,6 +549,7 @@ margin-right: 0px;
  font-weight: 500;
  font-size: 16px;
  line-height: 0.62;
+ cursor: pointer;
 }
 .all{
 width: 73px;
