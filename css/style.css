@@ -15,6 +15,10 @@ body{
     color:var(--main-text-color);
     background-color:white;
 }
+.header-page{
+width: 1600px;
+height: 80px;
+}
 
 
 .conteiner{
