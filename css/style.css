@@ -483,8 +483,8 @@ text-transform: uppercase;
 .btn{
     display: flex;
     justify-content: center;
-    margin-top: 93px;
-    margin-bottom: 50px;
+    margin-top: 94px;
+    margin-bottom: 56px;
 }
 
 .btn-element{
@@ -497,8 +497,6 @@ text-transform: uppercase;
 }
 
 .galery{
-padding-top: 34px;
-padding-bottom: 94px;
 display: flex;
 flex-wrap: wrap;
 }
