@@ -610,4 +610,8 @@ top: 174px;
 .img{
     display: block;
 }
+.img.gal{
+    box-sizing: border-box;
+    width: 100%;
+}
 
