@@ -245,6 +245,9 @@ background-size:cover
     justify-content: space-between;
 
 }
+.advantages-section{
+    margin-bottom: 94px;
+}
 
 .advantages-list{
     width: 270px;
@@ -282,13 +285,25 @@ border-radius: 4px;
  font-size: 36px;
  line-height: 0.86;
  text-align: center;
- margin-top: 94px;
+ 
  margin-bottom: 50px;
+}
+
+.command-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 94px;
+    background-color: #F5F4FA;
+   
+}
+.conteiner.command{
+    background-color: #F5F4FA;
 }
 
 .work-section-list{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 94px;
 }
 
 .work-list{
@@ -308,6 +323,10 @@ border-radius: 4px;
  text-align: center;
  background-color: #757575;
 }
+
+
+
+
 
 
 .command-section-list{
