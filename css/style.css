@@ -192,7 +192,6 @@ a{
 
 
 .hero-section{
-min-width: 1600px;
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
@@ -499,6 +498,8 @@ text-transform: uppercase;
 }
 
 .galery{
+padding-top: 34px;
+padding-bottom: 94px;
 display: flex;
 flex-wrap: wrap;
 }
