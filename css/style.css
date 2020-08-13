@@ -497,6 +497,7 @@ text-transform: uppercase;
 }
 
 .galery{
+margin-top: 0px;
 display: flex;
 flex-wrap: wrap;
 }
