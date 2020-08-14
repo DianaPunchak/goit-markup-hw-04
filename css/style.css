@@ -545,6 +545,10 @@ margin-right: 0px;
  font-weight: bold;
  font-size: 18px;
  line-height: 1.2;
+ margin-top: 20px;
+ margin-left: 24px;
+ margin-right: 24px;
+
 }
 
 .galery-description{
@@ -552,6 +556,9 @@ margin-right: 0px;
  font-weight: normal;
  font-size: 16px;
  line-height: 1.2;
+ margin-left: 24px;
+ margin-right: 24px;
+ margin-bottom: 20px;
 }
 
 .description-text{
