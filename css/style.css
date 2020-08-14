@@ -546,10 +546,9 @@ margin-right: 0px;
  color:var(--main-text-color);
  font-weight: bold;
  font-size: 18px;
- line-height: 1.2;
- margin-top: 20px;
- margin-left: 24px;
- margin-right: 24px;
+ line-height: 2;
+ margin: 0px;
+ margin-bottom: 4px;
 
 }
 
@@ -557,10 +556,10 @@ margin-right: 0px;
  color:var(--secondary-text-color);   
  font-weight: normal;
  font-size: 16px;
- line-height: 1.2;
- margin-left: 24px;
- margin-right: 24px;
- margin-bottom: 20px;
+ line-height: 1.8;
+ margin-bottom: 0px;
+ margin-top: 0px;
+
 }
 
 .description-text{
@@ -569,6 +568,14 @@ margin-right: 0px;
  font-size: 18px;
  line-height: 0.64;
  display: none;
+}
+
+.galery-box{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .button{
