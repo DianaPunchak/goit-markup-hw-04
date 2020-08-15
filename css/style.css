@@ -82,7 +82,7 @@ li{
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2px;
     margin-right: 85px; 
     letter-spacing: 0.03em;
 }
@@ -404,8 +404,9 @@ border-radius: 4px;
     color:var(--white-text-color);
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.58;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+    
 }
 
 .social-networks-list{
@@ -461,7 +462,10 @@ text-transform: uppercase;
 
 .address-footer{
     margin-top: 20px;
-    line-height: 25px;
+    line-height: 1.71;
+    font-style: normal;
+    
+    
 }
 
 
@@ -471,13 +475,20 @@ text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    
 }
 
 .contacts-footer-tel{
     color: rgba(255, 255, 255, 0.6);
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .linc-footer{
@@ -488,7 +499,7 @@ text-transform: uppercase;
     align-items: center;
     justify-content: center;
     fill: #ffffff;
-    background-color: rgba(0, 0, 0, 10%);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 }
       
