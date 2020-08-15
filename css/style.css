@@ -471,7 +471,7 @@ text-transform: uppercase;
 
 
 .contacts-footer-meil{
-    color:var(--white-text-color);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: normal;
     font-size: 14px;
     line-height: 1.2;
